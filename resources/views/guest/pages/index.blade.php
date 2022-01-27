@@ -19,7 +19,7 @@
             </div>
         </div>
         <div class="second-section">
-            <img id="controller-container" src="{{ url('images/shape_21.png') }}" alt="">
+            <img id="controller-container" src="{{ url('images/Shape_21.png') }}" alt="">
             <img id="img_1" src="{{ url('images/controller_1.png') }}" alt="">
             <div class="text-content">
                 <h3 class="mb5">Blockchain GameFi<br>
@@ -49,7 +49,7 @@
             </div>
         </div>
         <div class="fourth-section">
-            <img id="controller-container" src="{{ url('images/shape_22.png') }}" alt="">
+            <img id="controller-container" src="{{ url('images/Shape_22.png') }}" alt="">
             <img id="img_1" src="{{ url('images/layer_3.png') }}" alt="">
             <div class="text-content">
                 <h3 class="mb5">Blockchain GameFi<br>
