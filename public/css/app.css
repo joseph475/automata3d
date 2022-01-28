@@ -1138,57 +1138,54 @@ ul:not(.browser-default) {
   height: 36px;
 }
 
-.first-section {
+#home .first-section {
   height: 100vh;
   background-image: url("/images/bg1.png");
   background-repeat: no-repeat;
   background-position: center;
 }
-
-.second-section {
+#home .second-section {
   position: relative;
 }
-.second-section #controller-container {
+#home .second-section #controller-container {
   width: 90%;
   height: auto;
 }
-.second-section #img_1 {
+#home .second-section #img_1 {
   position: absolute;
   right: 0;
   top: -155px;
   z-index: 1;
 }
-.second-section .text-content {
+#home .second-section .text-content {
   width: 35%;
   position: absolute;
   left: 18%;
   top: 150px;
   text-align: left;
 }
-
-.third-section {
+#home .third-section {
   padding: 100px 50px;
 }
-.third-section .text-content {
+#home .third-section .text-content {
   text-align: center;
 }
-
-.fourth-section {
+#home .fourth-section {
   position: relative;
   display: flex;
   flex-direction: row-reverse;
 }
-.fourth-section #controller-container {
+#home .fourth-section #controller-container {
   width: 90%;
   height: auto;
 }
-.fourth-section #img_1 {
+#home .fourth-section #img_1 {
   position: absolute;
   left: -320px;
   top: -155px;
   z-index: 1;
 }
-.fourth-section .text-content {
+#home .fourth-section .text-content {
   width: 35%;
   position: absolute;
   right: 18%;
@@ -1297,37 +1294,87 @@ ul:not(.browser-default) {
 #careers .first-section .text-content .button {
   margin: 0;
 }
-
-.contactspage-container {
-  width: 70%;
-  margin: auto;
+#careers .second-section {
+  position: relative;
 }
-.contactspage-container h4, .contactspage-container h5 {
-  font-weight: 600;
+#careers .second-section #controller-container {
+  width: 90%;
 }
-.contactspage-container textarea {
-  padding-top: 10px;
+#careers .second-section #img_1 {
+  position: absolute;
+  left: 250px;
+  top: -155px;
+  z-index: 1;
 }
-.contactspage-container input, .contactspage-container textarea {
-  border: 1px solid #9e9e9e !important;
-  margin-top: 10px !important;
-  text-indent: 10px;
-  border-radius: 5px !important;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.2) !important;
-}
-
-#map {
-  height: 400px;
-  /* The height is 400 pixels */
-  width: 100%;
-  /* The width is the width of the web page */
+#careers .second-section .text-content {
+  width: 30%;
+  position: absolute;
+  right: 250px;
+  top: 150px;
+  text-align: left;
 }
 
-@media only screen and (max-width: 899px) {
-  .contactspage-container {
-    width: 95%;
-  }
+#contacts .first-section {
+  position: relative;
+  height: 120vh;
+  background-image: url("/images/bg_4.png");
+  background-repeat: no-repeat;
+  background-position: 70% 90%;
 }
+#contacts .first-section .text-content {
+  width: 30%;
+  position: absolute;
+  left: 18%;
+  top: 300px;
+  text-align: left;
+}
+#contacts .first-section .text-content .button {
+  margin: 0;
+}
+#contacts .first-section #img_1 {
+  position: absolute;
+  left: 250px;
+  top: -155px;
+  z-index: 1;
+}
+
+#investors .first-section {
+  height: 120vh;
+  background-image: url("/images/bg_3.png");
+  background-repeat: no-repeat;
+  background-position: 72% 105%;
+  background-color: #1c151d;
+}
+#investors .first-section .text-content {
+  width: 30%;
+  position: absolute;
+  left: 18%;
+  top: 150px;
+  text-align: left;
+}
+#investors .first-section .text-content .button {
+  margin: 0;
+}
+#investors .second-section {
+  position: relative;
+}
+#investors .second-section #controller-container {
+  width: 90%;
+}
+#investors .second-section #img_1 {
+  position: absolute;
+  left: 250px;
+  top: -155px;
+  z-index: 1;
+}
+#investors .second-section .text-content {
+  width: 30%;
+  position: absolute;
+  right: 250px;
+  top: 150px;
+  text-align: left;
+}
+
 .login-container {
   margin: auto;
   margin-top: 100px;

@@ -29,8 +29,8 @@
                             <img src="{{ url('/images/logo.png') }}" alt="">
                         </a>
                     </li>
-                    <li><a href="{{ url('/services') }}">INVESTORS</a></li>
-                    <li><a href="{{ url('/services') }}">CONTACT</a></li>
+                    <li><a href="{{ url('/investors') }}">INVESTORS</a></li>
+                    <li><a href="{{ url('/contact') }}">CONTACT</a></li>
                 </ul>
             </div>
         </div>

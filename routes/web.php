@@ -31,6 +31,12 @@ Route::get('/', [HomeController::class, 'getProducts']);
 Route::get('/careers', function () {
     return view('guest.pages.careers');
 });
+Route::get('/investors', function () {
+    return view('guest.pages.investors');
+});
+Route::get('/contact', function () {
+    return view('guest.pages.contact');
+});
 // Route::get('/products', [ProductsController::class, 'index']);
 // Route::get('/products/getProducts', [ProductsController::class, 'getProducts']);
 // Route::get('/services', [ServicesController::class, 'getServices']);

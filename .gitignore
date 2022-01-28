@@ -9,7 +9,7 @@
 #dist/
 #public/images/sliders/
 #vendor/
-
+.env
 # Compiled Java class files
 *.class
 
