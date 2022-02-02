@@ -1152,9 +1152,10 @@ ul:not(.browser-default) {
   height: auto;
 }
 #home .second-section #img_1 {
+  height: 760px;
   position: absolute;
   right: 0;
-  top: -155px;
+  top: -80px;
   z-index: 1;
 }
 #home .second-section .text-content {
