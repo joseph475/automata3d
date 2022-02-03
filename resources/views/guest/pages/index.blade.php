@@ -12,9 +12,12 @@
                 <div class="center-vertically-horizontally">
                     <h3 class="white-text text-center font-bold mb5 pb5">Powerful Web3 Development<br>
                         for advanced technology</h3>
-                    <div class="btn-container">
+                    <div class="btn-container mt5">
                         <img class="bg-2" src="{{ url('images/layer_2.png') }}" alt="">
-                        <a href="#" class="button ribbon-outset border">GET IN TOUCH</a>
+                        <a href="#">
+                            <img class="button_svg" src="{{ url('images/button_svg.svg') }}" alt="button"/>
+                            <p class="button_text">GET IN TOUCH</p>
+                        </a>
                     </div>
 
                 </div>
@@ -45,8 +48,11 @@
                         and others.
                     </p>
                 </div>
-                <div class="btn-container pt5">
-                    <a href="#" class="button ribbon-outset border">GET IN TOUCH</a>
+                <div class="btn-container mt5">
+                    <a href="#">
+                        <img class="button_svg" src="{{ url('images/button_svg.svg') }}" alt="button"/>
+                        <p class="button_text">GET IN TOUCH</p>
+                    </a>
                 </div>
             </div>
             <div class="fourth-section">

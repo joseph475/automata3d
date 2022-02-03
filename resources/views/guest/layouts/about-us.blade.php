@@ -35,8 +35,11 @@
             </div>
             <div class="row">
                 <div class="col s12">
-                    <div class="btn-container pt5">
-                        <a href="#" class="button ribbon-outset border">Contact Us</a>
+                    <div class="btn-container mt5">
+                        <a href="#">
+                            <img class="button_svg" src="{{ url('images/button_svg.svg') }}" alt="button"/>
+                            <p class="button_text">CONTACT US</p>
+                        </a>
                     </div>
                 </div>
             </div>

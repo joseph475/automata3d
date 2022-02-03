@@ -19,6 +19,7 @@ p{
 .sidenav .collapsible .collapsible-body li > a > i.material-icons {
     margin-right: 16px;
 }
+
 .center-vertically {
     margin: 0;
     position: absolute;
@@ -57,11 +58,26 @@ p{
 .btn-container{
     position: relative;
     z-index: 2;
+    .button_svg{
+        display: block;
+        margin: auto;
+        height: 60px;
+    }
+    .button_text{
+        position: absolute;
+        // top: 0;
+        top: 18%;
+        letter-spacing: 2px;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+    }
 }
 .bg-2{
     position: absolute;
     width: 1400px;
-    height: 200px;
+    height: 180px;
     left: 50%;
     transform: translate(-50%, 0);
     top: -58px;

@@ -13,9 +13,12 @@
                     <p>We're looking for front-end, back-end, blockchain developers. Game engineers, designers or 3D artist, and
                         adventurers, builders, thinkers, and missionaries to join our team and our powerful mission to bring the
                         decentralized gaming and metaverse to the entire planet.</p>
-                    <div class="btn-container pt5">
-                        <a href="#" class="button ribbon-outset border">APPLY TODAY</a>
-                    </div>
+                        <div class="btn-container mt5">
+                            <a href="#">
+                                <img class="button_svg" style="margin:0" src="{{ url('images/button_svg.svg') }}" alt="button"/>
+                                <p class="button_text" style="left: 25%; transform: translate(-36%, -50%);">APPLY TODAY</p>
+                            </a>
+                        </div>
                 </div>
             </div>
             <div class="second-section">

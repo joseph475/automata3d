@@ -1130,6 +1130,7 @@ ul:not(.browser-default) {
   }
   .header-nav .container ul li a {
     color: white;
+    font-weight: bold;
   }
 }
 .logo img {
@@ -1461,11 +1462,24 @@ p {
   position: relative;
   z-index: 2;
 }
+.btn-container .button_svg {
+  display: block;
+  margin: auto;
+  height: 60px;
+}
+.btn-container .button_text {
+  position: absolute;
+  top: 18%;
+  letter-spacing: 2px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+}
 
 .bg-2 {
   position: absolute;
   width: 1400px;
-  height: 200px;
+  height: 180px;
   left: 50%;
   transform: translate(-50%, 0);
   top: -58px;

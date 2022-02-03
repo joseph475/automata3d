@@ -14,9 +14,12 @@
                         We believe that future is decentralized and games will become a source of income for anyone,
                         anywhere. Join our powerful mission and learn more about investment opportunities we have to offer
                         at Automata.</p>
-                    <div class="btn-container pt5">
-                        <a href="#" class="button ribbon-outset border">Invest Today</a>
-                    </div>
+                        <div class="btn-container mt5">
+                            <a href="#">
+                                <img class="button_svg" style="margin:0" src="{{ url('images/button_svg.svg') }}" alt="button"/>
+                                <p class="button_text" style="left: 25%; transform: translate(-36%, -50%);">INVEST TODAY</p>
+                            </a>
+                        </div>
                 </div>
             </div>
             <div class="second-section">
