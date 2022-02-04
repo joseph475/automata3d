@@ -22,15 +22,15 @@
                 </ul> --}}
 
                 <ul>
-                    <li><a href="{{ url('/') }}">SERVICES</a></li>
-                    <li><a href="{{ url('/careers') }}">CAREERS</a></li>
+                    <li><a id="navservices" href="{{ url('/') }}">SERVICES</a></li>
+                    <li><a id="navcareers" href="{{ url('/careers') }}">CAREERS</a></li>
                     <li>
-                        <a href="{{ url('/') }}" class="logo center">
+                        <a href="{{ url('#') }}" class="logo center">
                             <img src="{{ url('/images/logo.png') }}" alt="">
                         </a>
                     </li>
-                    <li><a href="{{ url('/investors') }}">INVESTORS</a></li>
-                    <li><a href="{{ url('/contact') }}">CONTACT</a></li>
+                    <li><a id="navinvestors" href="{{ url('/investors') }}">INVESTORS</a></li>
+                    <li><a id="navcontact" href="{{ url('/contact') }}">CONTACT</a></li>
                 </ul>
             </div>
         </div>

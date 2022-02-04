@@ -28,6 +28,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [HomeController::class, 'getProducts']);
+// Route::get('/services', [HomeController::class, 'getProducts']);
+Route::get('/careers', function () {
+    return view('guest.pages.careers');
+});
 Route::get('/careers', function () {
     return view('guest.pages.careers');
 });
