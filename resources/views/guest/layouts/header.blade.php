@@ -22,7 +22,7 @@
                 </ul> --}}
 
                 <ul>
-                    <li><a id="navservices" href="{{ url('/') }}">SERVICES</a></li>
+                    <li><a id="navhome" href="{{ url('/') }}">HOME</a></li>
                     <li><a id="navcareers" href="{{ url('/careers') }}">CAREERS</a></li>
                     <li>
                         <a href="{{ url('#') }}" class="logo center">

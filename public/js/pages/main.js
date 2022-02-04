@@ -3,7 +3,7 @@ var firstPath = window.location.pathname.split('/')[1];
 
 $(document).ready(function () { 
         if(firstPath == ''){
-            firstPath = 'services'
+            firstPath = 'home'
         }
         $('#nav'+ firstPath).addClass('border-bottom');
 });
